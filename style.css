@@ -1,0 +1,360 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar-default{
+    background-color: lightseagreen;
+    height: 4.5em !important;
+    font-family: sans-serif;
+    transition: background-color 2s, height 0.5s;
+}
+
+.changing-nav-color{
+    background-color: white;
+    height: 4em !important;
+    font-family: sans-serif;
+    transition: background-color 2s, height 1s;
+}
+
+.dadid{
+    color: lightseagreen;
+    transition: color 2s;
+}
+
+#icon{
+    margin-top: 1.1em;
+    height: 5em;
+    font-size: 2.5em;
+    color: white;
+}
+
+#ico{
+    animation-name: anime;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes anime{
+    0% {color: white; margin-top: 1em;}
+    25% {color: cyan;}
+    50% {color: white;}
+    100% {color: cyan;}
+}
+
+
+
+.onenavbar{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    padding: 1em !important;
+    transition: color 1s;
+}
+.onenavbar:hover{
+    color: cyan;
+}
+
+.onenavbarone{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    padding: 1em !important;
+    transition: color 1s;
+}
+
+.onenavbarone:hover{
+    color: cyan;
+}
+
+.navbar-brand{
+    font-size: 30px !important;
+    color: #fff;
+    font-weight: bold;
+}
+
+#showcase{
+    background: lightseagreen;
+}
+
+#showcase h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+#showcase img{
+    margin-top: 20px;
+    width: 80%;
+    margin-left: 30px;
+}
+
+#showcase .showcase-right{
+    margin-top: 200px;
+    /* margin-left: 5em; */
+    font-family: 'Hanumn';
+}
+
+#showcase .showcase-right h1{
+    font-size: 85px !important;
+    line-height: 1em;
+    color: whitesmoke;
+    letter-spacing: -5px;
+}
+
+#para1{
+    line-height: 1.2em;
+    font-size: 40px !important;
+    letter-spacing: -1.5px;
+    color: whitesmoke;
+
+}
+ #para2{
+     line-height: 1.2em !important;
+     font-size: 40px;
+     line-height: 1.3em;
+     letter-spacing: -1.5px;
+     color: whitesmoke;
+ }
+
+ .smallspan{
+     color: lightseagreen;
+ }
+ .smallspan1{
+     color: cyan;
+ }
+
+ .hello{
+     color: #3c3c3c;
+     font-weight: bold;
+     font-family: 'Hanuman';
+     font-size: 4.5em;
+     letter-spacing: -2px;
+ }
+
+ .para3{
+     font-size: 20px;
+     letter-spacing: 0px;
+     line-height: 1.2em;
+     font-family: 'Hanuman';
+ }
+
+ #image1{
+     margin-top: 8em;
+     opacity: 0.5;
+     animation-name: anime1;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+ }
+
+ @keyframes anime1{
+     from {opacity: 0.8;}
+     to {opacity: 1;;}
+ }
+
+ #hel{
+     margin-top: 4em;
+     font-weight: bold;
+     font-family: 'Hanuman';
+     font-size: 3em;
+ }
+
+ #helo{
+     margin-top: 6em;
+     margin-left: 4em;
+     margin-bottom: 6em;
+ }
+
+ #icon1{
+     font-size: 4em;
+     animation-name: animeicon;
+     animation-duration: 2s;
+     animation-timing-function: ease-in-out;
+     animation-iteration-count: infinite;
+     animation-direction: alternate;
+ }
+
+ @keyframes animeicon{
+    0% {color: white; margin-right: 1em;}
+    25% {color: black;}
+    50% {color: white;}
+    100% {color: black;}
+}
+
+.pimage{
+    opacity: 0.5;
+    animation-name: anime1;
+   animation-duration: 1s;
+   animation-timing-function: ease-in-out;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+}
+
+@keyframes animeimage{
+    from {opacity: 0.5;}
+    to {opacity: 1;;}
+}
+input, textarea{
+    border-left: 0px !important;
+    border-top: 0px !important;
+    border-right: 0px !important;
+    border-bottom: 2px solid whitesmoke !important;
+    background-color: lightseagreen !important;
+    outline: none;
+    box-shadow: none !important;
+    color: white !important;
+}
+
+textarea:focus, input:focus{
+    outline: cyan !important;
+    border-bottom: 3px solid cyan !important;
+    border-top: none;
+    border-right: none;
+}
+
+.form1{
+    margin-bottom: -1em;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    padding: 1em !important;
+    transition: color 1s;   
+}
+
+
+#formsection{
+    background-color: lightseagreen;
+}
+
+.sicons{
+    font-size: 2em;
+    color: white;
+    padding: 0.5em;
+}
+
+.sicons:hover{
+    font-size: 3em;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    transition: font-size 0.2s linear;
+}
+
+#face:hover{
+    color: #3b5998;
+}
+
+#insta:hover{
+    color:  #fb3958;
+}
+
+#linked:hover{
+    color: #0e76a8;
+}
+
+#git:hover{
+    color: gray;
+}
+
+.foot{
+    height: 5em;
+    background-color: cyan;
+}
+
+.footext{
+    margin-top: 1em;
+    font-family: 'Hanuman';
+    font-weight: bold;
+}
+
+.under{
+    height: 3px;
+    background: lightseagreen;
+}
+
+.sicon{
+    font-size: 3em;
+    color: gray;
+}
+
+.berong{
+    font-size: 2em;
+    display: none;
+    color: white;
+}
+
+#nav2{
+    position: fixed;
+    margin-top: 3em;
+    display: none;
+    background: white;
+    height: 100%;
+    z-index: 88;
+    width: 100%;
+}
+.navi{
+    width: 100%;
+}
+
+.navi li{
+    font-weight: bold;
+    transition: color 1s;
+    font-family: 'Hanuman';
+    list-style: none;
+    font-size: 1.5em;
+    padding:  1em;
+    text-align: center;
+}
+
+.navi li a{
+    text-decoration: none;
+    color: white;
+    transition: color 0.5s;
+}
+
+.navi li a:hover{
+    color: cyan;
+}
+
+@media (max-width: 768px){
+    #showcase .showcase-right h1{
+        font-size: 50px !important;
+        letter-spacing: -1px;
+    }
+    .navi li a{
+        color: lightseagreen;
+    }
+    .navi li{
+        text-align: center;
+    }
+    #para1{
+        font-size: 30px !important;
+    }
+    #para2{
+        font-size: 30px;
+    }
+    #bared{
+        display: block;
+    }
+    .active{
+        display: inline-block;
+    }
+}
+
+.iconic{
+    font-size: 2em;
+    color: lightseagreen;
+}
+
+
+
+
+
+
+
+
+
